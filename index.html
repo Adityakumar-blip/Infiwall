@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infiwall by Aditya</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav class="navbar bg-dark navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+        <a class="logo fas fa-coffee">Infiwall</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#stickynav"
+        aria-controls="stickynav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="stickynav">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Categories</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Wallpaper</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="loader" id="loader" hidden>
+        <img src="loader.svg" alt="Loading">
+    </div>
+    <!-- Image Container -->
+    <div class="image-container" id="image-container"></div>
+
+    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+    
+    
+
+    <script src="action.js"></script>
+     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
